@@ -1,0 +1,51 @@
+.c-hamburguer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 23px;
+	position: relative;
+	cursor: pointer;
+	@include transition();
+	@include rotate(0deg, center);
+	&__bar {
+		@include transition();
+		@include rotate(0deg, center);
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 3px;
+		background: var(--primary);
+		border-radius: 2px;
+	}
+
+	&.is-active {
+		@include rotate(180deg, center);
+		.c-hamburguer {
+			&__bar {
+				&.--a {
+					@include rotate(45deg, center);
+					top: 10px;
+				}
+				&.--b {
+					@include hideElement;
+				}
+				&.--c {
+					@include rotate(-45deg, center);
+					bottom: 10px;
+				}
+			}
+		}
+	}
+
+	&.--white {
+		.c-hamburguer__bar {
+			background: var(--white);
+		}
+	}
+	&.--black {
+		.c-hamburguer__bar {
+			background: var(--black2);
+		}
+	}
+}

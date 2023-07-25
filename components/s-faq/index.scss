@@ -1,0 +1,25 @@
+.s-faq {
+	padding-top: 20px;
+	padding-bottom: 230px;
+	position: relative;
+	.c-shapeDivider {
+		bottom: 0;
+		z-index: 1;
+	}
+	.u-container {
+		z-index: 0;
+	}
+	&__items {
+
+	}
+	&__cta {
+		@include flexWidth(330px);
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+@media screen and (max-width: 1310px) {
+	.s-faq {
+		padding-bottom: 140px;
+	}
+}

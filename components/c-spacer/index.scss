@@ -1,0 +1,12 @@
+.c-spacer {
+	display: block;
+	background: var(--gray);
+	&.--v {
+		@include flexWidth(1px);
+		height: 20px;
+	}
+	&.--h {
+		@include flexWidth(100%);
+		height: 1px;
+	}
+}

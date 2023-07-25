@@ -1,0 +1,138 @@
+.s-stickyContent {
+	padding: 90px 0;
+	display: block;
+	width: 100%;
+	position: relative;
+	.u-container {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+	&__col {
+		@include flexWidth(50%);
+		&.--infos {
+			padding-right: 50px;
+			position: sticky;
+			top: 200px;
+		}
+		&.--cards {
+			ul {
+				@include calcWidthForPositionNegative(-15px);
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				li {
+					@include flexWidth(50%);
+					padding: 15px;
+					position: relative;
+					&:nth-child(even) {
+						top: 150px;
+					}
+				}
+			}
+		}
+	}
+	&.--reverse {
+		.s-stickyContent__col.--infos {
+			order: 2;
+			padding-right: 0;
+			padding-left: 50px;
+		}
+		.s-stickyContent__col.--cards {
+			ul li {
+				&:nth-child(odd) {
+					top: 150px;
+				}
+				&:nth-child(even) {
+					top: inherit;
+				}
+			}
+		}
+	}
+
+	.c-shapeDivider {
+		bottom: 0;
+	}
+	.c-callToAction {
+		margin-top: 30px;
+	}
+	.c-listBrands {
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width: 1350px) {
+	.s-stickyContent__col.--cards {
+		@include flexWidth(45%);
+	}
+	.s-stickyContent__col.--infos {
+		@include flexWidth(55%);
+	}
+	.s-stickyContent__col.--cards ul {
+		flex-wrap: wrap;
+		li {
+			@include flexWidth(100%);
+		}
+	}
+	.s-stickyContent__col.--cards ul li:nth-child(even),
+	.s-stickyContent.--reverse .s-stickyContent__col.--cards ul li:nth-child(odd) {
+		top: 0;
+	}
+}
+@media screen and (max-width: 1230px) {
+	.s-stickyContent {
+		.u-container {
+			display: block;
+			max-width: 780px;
+		}
+	}
+
+	.s-stickyContent__col.--infos {
+		padding-right: 0;
+		position: relative;
+		top: 0;
+		@include flexWidth(100%);
+		.c-defaultContentStyle {
+			* {
+				text-align: center !important;
+			}
+		}
+	}
+	.s-stickyContent__col.--cards {
+		@include flexWidth(100%);
+		margin-top: 60px;
+	}
+	.s-stickyContent__col.--cards ul li {
+		@include flexWidth(50%);
+	}
+
+	.s-stickyContent .c-callToAction {
+		justify-content: center;
+	}
+
+	.s-stickyContent.--reverse .s-stickyContent__col.--infos {
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	.s-stickyContent__col.--cards ul {
+		flex-wrap: wrap;
+		li {
+			@include flexWidth(100%);
+		}
+	}
+}
+
+.s-integrations {
+	background: var(--white);
+	padding-bottom: 250px;
+}
+@media screen and (max-width: 1230px) {
+	.s-integrations{
+		padding-bottom: 140px;
+	}
+}
+
+.s-siteDevelopment {
+	padding-bottom: 160px;
+	background: var(--white3);
+}

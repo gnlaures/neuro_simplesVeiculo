@@ -1,0 +1,43 @@
+.c-devSignature {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	width: fit-content;
+	a {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		i {
+			@include transition();
+			@include scale(1, center);
+			@include flexWidth(18px);
+			svg {
+				display: block;
+				width: 18px;
+				height: 18px;
+				path {
+					fill: var(--author__primary);
+				}
+			}
+		}
+		p {
+			@include preset__p__s();
+			color: var(--white);
+			padding-left: 6px;
+			strong {
+				font-weight: var(--fw__bold);
+			}
+		}
+
+		&:hover {
+			i {
+				@include scale(1.2, center);
+			}
+			p, strong {
+				color: var(--author__primary);
+			}
+		}
+	}
+}

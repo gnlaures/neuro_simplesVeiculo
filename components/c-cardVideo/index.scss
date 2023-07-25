@@ -1,0 +1,54 @@
+.c-cardVideo {
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	border: var(--radius);
+	&__cover {
+		@extend .u-aspectRatio;
+		@extend .--ratio-16-9;
+		border-radius: var(--radius);
+		background: var(--black2);
+		img {
+			@include transition();
+			border-radius: var(--radius);
+			opacity: 0.6;
+		}
+	}
+	&__icon {
+		@include transition();
+		@include scale(1, center);
+		border-radius: 50%;
+		border: 1px solid var(--white);
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		padding: 40px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -55px;
+		margin-left: -55px;
+		i, i svg, svg {
+			display: block;
+			width: 30px;
+			height: 30px;
+		}
+		&:hover {
+			background: var(--primary__dark);
+		}
+	}
+	&:hover {
+		.c-cardVideo__cover {
+			img {
+				opacity: 1;
+			}
+		}
+		.c-cardVideo__icon {
+			@include scale(1.1, center);
+			background: var(--primary);
+			border-color: var(--primary);
+		}
+	}
+}

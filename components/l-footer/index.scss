@@ -1,0 +1,74 @@
+.l-footer {
+	background: var(--black2);
+	padding-bottom: 60px;
+	padding-top: 130px;
+	.u-container {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	&__col {
+		&__group {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+		}
+		&.--brand {
+			@include flexWidth(560px);
+			padding-right: 60px;
+		}
+		&.--links {
+			flex: 1 1 auto;
+			padding-left: 60px;
+			border-left: 1px solid var(--gray5);
+		}
+	}
+
+	.c-cardCompany {
+		padding-bottom: 60px;
+		margin-bottom: 60px;
+		border-bottom: 1px solid var(--gray5);
+		p {
+			color: var(--gray);
+		}
+	}
+
+	.c-sitemap {
+		margin-bottom: 60px;
+	}
+}
+@media screen and (max-width: 1480px) {
+	.l-footer__col.--brand {
+		@include flexWidth(360px);
+		padding-right: 30px;
+	}
+	.l-footer__col.--links {
+		padding-left: 30px;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.l-footer .c-sitemap {
+		display: none;
+	}
+	.l-footer {
+		padding-top: 70px;
+		.u-container {
+			flex-wrap: wrap-reverse;
+			max-width: 640px;
+		}
+		.l-footer__col.--brand {
+			@include flexWidth(100%);
+			padding-right: 0px;
+			padding-top: 60px;
+			margin-top: 60px;
+			border-top: 1px solid var(--gray5);
+		}
+		.l-footer__col.--links {
+			@include flexWidth(100%);
+			padding-left: 0px;
+			border-left: 0;
+		}
+	}
+}

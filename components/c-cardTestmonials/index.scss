@@ -1,0 +1,14 @@
+.c-cardTestmonials {
+	background: var(--white);
+	border-radius: var(--radius);
+	padding: 25px;
+	h4 {
+		@include preset__h4;
+	}
+	p {
+		@include preset__p;
+	}
+	.c-cardVideo {
+		margin-top: 10px;
+	}
+}

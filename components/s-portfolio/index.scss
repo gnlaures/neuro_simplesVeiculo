@@ -1,0 +1,38 @@
+.s-portfolio {
+	background: var(--white3);
+	padding: 90px 0 250px 0;
+	position: relative;
+	&:after {
+		@include rotate(-20deg, center);
+		content: '';
+		display: block;
+		width: 70px;
+		height: 60px;
+		position: absolute;
+		left: 53%;
+		top: -40px;
+		background-image: url("../media/img/portfolio_arrow.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+	.c-defaultContentStyle {
+		margin: 0 auto;
+		max-width: 780px;
+	}
+	.c-callToAction {
+		justify-content: center;
+	}
+	.c-masonryPortfolioGrid {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.c-shapeDivider {
+		bottom: 0;
+	}
+}
+@media screen and (max-width: 1230px) {
+	.s-portfolio {
+		padding-bottom: 140px;
+	}
+}

@@ -1,0 +1,9 @@
+.c-copyright {
+	display: inline-block;
+	.c-defaultContentStyle {
+		p {
+			@include preset__p__s(var(--gray));
+			color: var(--gray);
+		}
+	}
+}

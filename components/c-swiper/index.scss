@@ -1,0 +1,45 @@
+.c-swiper {
+	position: relative;
+	padding-bottom: 50px;
+	.swiper-pagination {
+		bottom: 0;
+		.swiper-pagination-bullet {
+			width: 12px;
+			height: 12px;
+			border-radius: 6px;
+			background: var(--black2);
+			cursor: pointer;
+		}
+		.swiper-pagination-bullet-active {
+			background: var(--primary);
+		}
+	}
+	.swiper-button-prev,
+	.swiper-button-next {
+		width: 48px;
+		height: 75px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		border-radius: 24px;
+		background-color: rgba(0,0,0,0.7);
+		background-image: url("../../media/icons/icon_caret_white.svg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 18px;
+		&:after {
+			display: none;
+		}
+		&:hover {
+			background-color: rgba(0,0,0,0.8);
+		}
+	}
+	.swiper-button-prev {
+		@include rotate(90deg, center);
+		left: 20px;
+	}
+	.swiper-button-next {
+		@include rotate(-90deg, center);
+		right: 20px;
+	}
+}

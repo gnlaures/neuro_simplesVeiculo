@@ -1,0 +1,25 @@
+.c-newsletter {
+	border-radius: var(--radius);
+	background: #232323;
+	padding: 30px;
+	.c-defaultContentStyle {
+		h4 {
+			margin-bottom: 15px;
+		}
+		p {
+			@include preset__p__s();
+			color: var(--white);
+		}
+	}
+	.c-form {
+		background: var(--white);
+		border-radius: 50px;
+		margin-top: 20px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.c-newsletter .c-form {
+		border-radius: var(--radius);
+	}
+}

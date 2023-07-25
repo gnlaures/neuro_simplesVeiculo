@@ -1,0 +1,26 @@
+.s-plansAndPricing {
+	padding: 90px 0;
+	background: var(--white2);
+	.c-tablePrice {
+		margin: 60px 0 40px 0;
+	}
+	.c-defaultContentStyle {
+		max-width: 780px;
+		margin: 0 auto;
+	}
+	&__cta {
+		display: flex;
+		justify-content: center;
+		a {
+			@include transition();
+			@include preset__l__p();
+			border-bottom: 2px dashed var(--text);
+			text-align: center;
+			padding: 15px 0;
+			&:hover {
+				border-bottom: 2px solid var(--primary);
+				color: var(--primary);
+			}
+		}
+	}
+}

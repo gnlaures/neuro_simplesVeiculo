@@ -1,0 +1,42 @@
+.s-testmonials {
+	padding: 200px 0 180px 0;
+	display: block;
+	background: var(--white3);
+	position: relative;
+	.c-defaultContentStyle {
+		max-width: 940px;
+		margin: 0 auto;
+	}
+	.c-shapeDivider {
+		z-index: 1;
+		&.--top {
+			@include rotate(180deg, center);
+			top: 0;
+			bottom: inherit;
+		}
+		&.--bottom {
+			//@include rotate(180deg, center);
+			bottom: 0;
+		}
+	}
+	&__swiper {
+		max-width: var(--container__width);
+		overflow: hidden;
+		margin-top: 50px;
+		.swiper-slide {
+			padding: 0 20px;
+		}
+	}
+	.u-container {
+		position: relative;
+		z-index: 2;
+	}
+}
+@media screen and (max-width: 940px) {
+	.s-testmonials {padding: 120px 0;}
+}
+@media screen and (max-width: 680px) {
+	.s-testmonials__swiper .swiper-slide {
+		padding: 0;
+	}
+}

@@ -1,0 +1,16 @@
+.c-helpLink {
+	@include transition();
+	display: block;
+	border-radius: 15px;
+	border: 1px dashed #CCC;
+	background: var(--white);
+	padding: 25px;
+	h4 {
+		@include preset__h3;
+		color: var(--primary);
+		margin-bottom: 15px;
+	}
+	&:hover {
+		border-color: var(--primary);
+	}
+}

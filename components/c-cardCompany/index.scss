@@ -1,0 +1,15 @@
+.c-cardCompany {
+	display: block;
+	width: 100%;
+	//max-width: 600px;
+
+	.c-brand {
+		max-width: 185px;
+		margin-bottom: 20px;
+	}
+	.c-defaultContentStyle {
+		p {
+			@include preset__p__s()
+		}
+	}
+}

@@ -1,0 +1,48 @@
+.s-overview {
+	display: block;
+	width: 100%;
+	padding-top: 100px;
+	position: relative;
+	background: var(--primary);
+	overflow: hidden;
+	&__effect {
+		display: block;
+		width: 520px;
+		height: 80%;
+		position: absolute;
+		left: 5%;
+		top: 10%;
+		z-index: 0;
+		opacity: 0.2;
+		svg {
+			display: block;
+			height: 100%;
+			width: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		svg path {
+			fill: var(--primary__dark)
+		}
+	}
+	.u-container > .c-defaultContentStyle {
+		max-width: 720px;
+		margin: 0 auto;
+		* {color: var(--white)}
+		h2 {
+			color: var(--black2);
+			margin: 25px 0 30px 0;
+		}
+	}
+	.c-tabs {
+		margin-top: 40px;
+	}
+	.c-shapeDivider {
+		bottom: 0px;
+		z-index: 1;
+	}
+	.u-container {
+		z-index: 2;
+	}
+}

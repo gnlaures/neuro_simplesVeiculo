@@ -1,0 +1,33 @@
+.c-masonryPortfolioGrid {
+	@include calcWidthForPositionNegative(-15px);
+	columns: 4;
+	column-gap: 0;
+	> li {
+		width: 100%;
+		padding: 15px;
+		* {
+			border-radius: var(--radius);
+			display: block;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 1024px) {
+	.c-masonryPortfolioGrid {
+		columns: 3;
+	}
+}
+@media screen and (max-width: 770px) {
+	.c-masonryPortfolioGrid {
+		columns: 3;
+	}
+}
+@media screen and (max-width: 500px) {
+	.c-masonryPortfolioGrid {
+		@include calcWidthForPositionNegative(-5px);
+		columns: 2;
+		>li {
+			padding: 5px;
+		}
+	}
+}

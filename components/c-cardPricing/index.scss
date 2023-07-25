@@ -1,0 +1,108 @@
+.c-cardPricing {
+	@include transition();
+	display: block;
+	width: 100%;
+	background: var(--white2);
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.05);
+	border-radius: var(--radius);
+	position: relative;
+
+	&__best {
+		position: absolute;
+		right: -0px;
+		top: -20px;
+		display: inline-block;
+		white-space: nowrap;
+		color: var(--black2);
+		font-size: 14px;
+		font-weight: var(--fw__bold);
+		line-height: 40px; /* 12.6px */
+		letter-spacing: -0.56px;
+		text-transform: uppercase;
+		border-radius: 20px 20px 0px 20px;
+		padding: 0 20px;
+		background: var(--secondary);
+	}
+	&__title {
+		padding: 25px;
+		h3 {
+			@include preset__h3;
+			text-align: center;
+		}
+		.price {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+			justify-content: center;
+			margin-top: 5px;
+			.symbol {
+				font-size: 20px;
+				font-weight: var(--fw__bold);
+				color: var(--black2);
+			}
+			.num {
+				@include preset__h2;
+				font-size: 40px;
+				padding-left: 5px;
+			}
+		}
+		.period {
+			@include preset__p__s();
+			text-align: center;
+		}
+	}
+	&__list {
+		padding: 0 25px;
+		li {
+			@include transition();
+			border-bottom: 1px solid var(--gray);
+			padding: 0 25px;
+			div {
+				@include transition();
+				@include calcWidthForPositionNegative(-25px);
+				border-radius: var(--radius);
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: flex-start;
+				padding: 8px 2px;
+				i, i svg {
+					@include flexWidth(20px);
+				}
+				i {
+					position: relative;
+					top: 1.5px;
+				}
+				span {
+					display: block;
+					@include preset__p();
+					padding-left: 8px;
+				}
+			}
+			&:first-of-type {
+				border-top: 1px solid var(--gray);
+			}
+			&:hover {
+				div {
+					background: var(--white2);
+				}
+			}
+		}
+	}
+	&__signup {
+		padding: 25px;
+		.c-btn {
+			width: 100%;
+		}
+	}
+
+	&.--best {
+		background: var(--white);
+		box-shadow: 0px 0px 40px 6px rgba(0, 0, 0, 0.10);
+		padding: 15px 0;
+	}
+
+	&:hover {
+		background: var(--white);
+	}
+}

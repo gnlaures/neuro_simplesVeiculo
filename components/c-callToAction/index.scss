@@ -1,0 +1,27 @@
+.c-callToAction {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	li {
+		margin-right: 35px;
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+}
+@media screen and (max-width: 800px) {
+	.c-callToAction {
+		display: block;
+		max-width: 280px;
+		margin: 0 auto;
+		li {
+			margin-right: 0;
+			margin-bottom: 15px;
+			text-align: center;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
