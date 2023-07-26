@@ -9,7 +9,13 @@
                 <p>Economize tempo e esforço ao integrar seus veículos cadastrados com os principais portais automotivos do Brasil, como Meu Carro Novo, iCarros, WebMotors, Só Carrão, entre outros. Além de famosos portais de vendas, como Mercado Livre e OLX.</p>
             </div>
             <?php include('components/c-listBrands/index.php'); ?>
-            <?php include('components/c-callToAction/index.php'); ?>
+            <?php $cCallToAction = array(
+                'modifiers' => '',
+                'link' => '#plans',
+                'link_modifiers' => 'js-scrollLink"',
+                'caption' => 'Conheca os Planos',
+            );
+            include('components/c-callToAction/index.php'); ?>
         </div>
         <div class="s-stickyContent__col --cards">
             <ul>

@@ -8,7 +8,13 @@
                 <br>
                 <p>Com a integração automática do estoque, um design responsivo e a inclusão de scripts personalizados, você terá uma apresentação profissional dos seus veículos, interação com os visitantes e a obtenção de dados valiosos para o sucesso do seu negócio.</p>
             </div>
-            <?php include('components/c-callToAction/index.php'); ?>
+            <?php $cCallToAction = array(
+                'modifiers' => '',
+                'link' => '#portfolio',
+                'link_modifiers' => 'js-scrollLink"',
+                'caption' => 'Veja alguns projetos',
+            );
+            include('components/c-callToAction/index.php'); ?>
         </div>
         <div class="s-stickyContent__col --cards">
             <ul>

@@ -6,7 +6,13 @@
         <div class="l-headerHome__call">
             <h1>Potencialize seu negócio automotivo com a Simples Veículo!</h1>
             <p>Descubra o sistema perfeito para sua loja de veículos. Controle seu negócio de forma segura, prática e simples. 100% online, com o melhor custo-benefício, segurança avançada e plataforma de treinamento inclusa.</p>
-            <?php include('components/c-callToAction/index.php'); ?>
+            <?php $cCallToAction = array(
+                'modifiers' => '',
+                'link' => '#overview',
+                'link_modifiers' => 'js-scrollLink"',
+                'caption' => 'Conheca as Funcionalidades',
+            );
+            include('components/c-callToAction/index.php'); ?>
         </div>
         <div class="l-headerHome__scroll">
             <a href="#overview" class="js-scrollLink">

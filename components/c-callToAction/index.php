@@ -1,8 +1,8 @@
-<ul class="c-callToAction">
+<ul class="c-callToAction  <?php echo $cCallToAction["modifiers"] ?>">
     <li>
-        <a href="#overview" class="c-btn --primary --l js-scrollLink">
+        <a href="<?php echo $cCallToAction["link"] ?>" class="c-btn --primary --l <?php echo $cCallToAction["link_modifiers"] ?>">
             <div class="c-btn__hero">
-                <div class="c-btn__caption">Conheca as funcionalidades</div>
+                <div class="c-btn__caption"> <?php echo $cCallToAction["caption"] ?></div>
             </div>
         </a>
     </li>
