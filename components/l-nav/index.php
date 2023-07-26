@@ -8,10 +8,10 @@
     <div class="l-nav__hero">
         <div class="l-nav__menu">
             <ul>
-                <li><a href="#">Sistema Para Lojas de Veículo</a></li>
-                <li><a href="#">Sites Para Lojas de Veículo</a></li>
-                <li><a href="#">Planos e Preços</a></li>
-                <li><a href="#">Suporte</a></li>
+                <li><a href="#sistema" class="js-scrollLink">Sistema Para Lojas de Veículo</a></li>
+                <li><a href="#sites" class="js-scrollLink">Sites Para Lojas de Veículo</a></li>
+                <li><a href="#plans" class="js-scrollLink">Planos e Preços</a></li>
+                <li><a href="contato">Suporte</a></li>
             </ul>
         </div>
         <div class="c-spacer --v --a"></div>

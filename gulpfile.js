@@ -61,10 +61,13 @@ const control = {
             "components/s-testmonials/index.scss",
             "components/s-blogPostsHome/index.scss",
             "components/s-faq/index.scss",
+            "components/s-plansPricingFull/index.scss",
 
             "components/l-nav/index.scss",
             "components/l-headerHome/index.scss",
+            "components/l-headerInner/index.scss",
             "components/l-footer/index.scss",
+            "components/l-page/index.scss",
         ],
         "scripts": [
             "components/_defaults/utilities.js",

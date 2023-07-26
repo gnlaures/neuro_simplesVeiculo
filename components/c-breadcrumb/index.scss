@@ -22,7 +22,10 @@
 				}
 			}
 			a {
-				@include preset__p__s();
+				@include preset__p();
+				font-weight: var(--fw__bold);
+				letter-spacing: -0.8px;
+				cursor: pointer;
 				&:hover {
 					color: var(--primary);
 				}

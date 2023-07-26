@@ -1,0 +1,75 @@
+.s-fullPlansAndPricing {
+
+}
+
+.c-fullTablePlansAndPricing {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 100%;
+	&__aside {
+		@include flexWidth(16.66%);
+		&__group {
+			display: block;
+			margin-top: 30px;
+			&:first-of-type {
+				margin-top: 0;
+			}
+			h3 {
+				color: var(--black2);
+				font-size: 22px;
+				font-weight: var(--fw__semiBold);
+				line-height: 200%; /* 44px */
+				letter-spacing: -0.88px;
+			}
+			h4 {
+				@include preset__p__s();
+				font-weight: var(--fw__semiBold);
+				line-height: 200%; /* 44px */
+			}
+			> ul {
+				> li {
+					@include preset__p__s();
+					padding-top: 8px;
+					padding-bottom: 8px;
+					border-bottom: 1px solid #B6DCED;
+					> ul {
+						padding: 8px 0;
+						padding-left: 18px;
+						border-left: 1px solid #B6DCED;
+						> li {
+							@include preset__p__s();
+							padding-top: 8px;
+							padding-bottom: 8px;
+							border-bottom: 1px solid #B6DCED;
+							&:last-of-type {
+								padding-bottom: 0;
+								border-bottom: 0;
+							}
+							&:first-of-type {
+								padding-top: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&__content {
+		flex: 1 1 auto;
+		display: flex;
+		flex-direction: row;
+		&__col {
+			@include flexWidth(20%);
+			&__title {
+
+			}
+			&__items {
+
+			}
+			&__cta {
+
+			}
+		}
+	}
+}

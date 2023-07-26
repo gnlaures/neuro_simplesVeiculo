@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f7c7beb-8b0c-4ccf-8e94-a4c0736e5c5e" name="Default Changelist" comment="" />
+    <list default="true" id="1f7c7beb-8b0c-4ccf-8e94-a4c0736e5c5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/c-breadcrumb/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/c-breadcrumb/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/l-headerHome/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/l-headerHome/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/l-headerInner/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/l-headerInner/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/l-nav/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/l-nav/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/s-plansPricingFull/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/s-plansPricingFull/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_components.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_components.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/plans.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/plans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2SOcde64ehwIoSu8WgHqlmZRnqR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
@@ -104,10 +122,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gulp.js.default" />
-        <item itemvalue="Gulp.js.styles" />
-        <item itemvalue="Gulp.js.scripts" />
         <item itemvalue="Gulp.js.watch" />
+        <item itemvalue="Gulp.js.styles" />
+        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.scripts" />
       </list>
     </recent_temporary>
   </component>
@@ -131,10 +149,22 @@
       <workItem from="1689874584090" duration="3621000" />
       <workItem from="1689961685787" duration="4014000" />
       <workItem from="1690034948229" duration="8697000" />
+      <workItem from="1690395259854" duration="2725000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

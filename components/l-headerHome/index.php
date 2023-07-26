@@ -9,7 +9,7 @@
             <?php $cCallToAction = array(
                 'modifiers' => '',
                 'link' => '#overview',
-                'link_modifiers' => 'js-scrollLink"',
+                'link_modifiers' => 'js-scrollLink',
                 'caption' => 'Conheca as Funcionalidades',
             );
             include('components/c-callToAction/index.php'); ?>
