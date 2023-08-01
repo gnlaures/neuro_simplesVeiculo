@@ -2,7 +2,7 @@
 @mixin preset__p($tc: var(--text)) {
 	display: block;
 	color: $tc;
-	font-size: 22px;
+	font-size: 20px;
 	letter-spacing: 0;
 	line-height: 1.5;
 	a {
@@ -75,13 +75,13 @@
 	font-weight: var(--fw__bold);
 	color: var(--black2);
 	letter-spacing: -4px;
-	font-size: 100px;
+	font-size: 84px;
 	line-height: 0.9;
 }
 @mixin preset__h2() {
 	font-weight: var(--fw__bold);
 	color: var(--black2);
-	font-size: 60px;
+	font-size: 52px;
 	line-height: 90%; /* 54px */
 	letter-spacing: -2.4px;
 	@media screen and (max-width: 940px) {

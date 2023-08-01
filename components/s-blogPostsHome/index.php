@@ -11,7 +11,7 @@
             <div class="s-blogPostsHome__title__cta">
                 <a href="#" class="c-btn --primary --l">
                     <div class="c-btn__hero">
-                        <div class="c-btn__caption">Ver todas as postagens</div>
+                        <div class="c-btn__caption">Conheca nosso blog</div>
                     </div>
                 </a>
             </div>

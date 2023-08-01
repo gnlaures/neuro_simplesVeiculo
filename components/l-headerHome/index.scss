@@ -38,7 +38,7 @@
 	}
 	&__call {
 		display: block;
-		max-width: 1080px;
+		max-width: 1120px;
 		position: relative;
 		z-index: 3;
 		h1 {
@@ -47,7 +47,7 @@
 		p {
 			@include preset__l__p;
 			margin: 35px 0;
-			max-width: 980px;
+			max-width: 1080px;
 		}
 	}
 	&__scroll {

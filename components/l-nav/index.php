@@ -11,7 +11,6 @@
                 <li><a href="#sistema" class="js-scrollLink">Sistema Para Lojas de Veículo</a></li>
                 <li><a href="#sites" class="js-scrollLink">Sites Para Lojas de Veículo</a></li>
                 <li><a href="#plans" class="js-scrollLink">Planos e Preços</a></li>
-                <li><a href="contato">Suporte</a></li>
             </ul>
         </div>
         <div class="c-spacer --v --a"></div>

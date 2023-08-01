@@ -4,8 +4,8 @@
     </div>
     <div class="u-container">
         <div class="l-headerHome__call">
-            <h1>Potencialize seu negócio automotivo com a Simples Veículo!</h1>
-            <p>Descubra o sistema perfeito para sua loja de veículos. Controle seu negócio de forma segura, prática e simples. 100% online, com o melhor custo-benefício, segurança avançada e plataforma de treinamento inclusa.</p>
+            <h1>Potencialize sua loja de veículos com a Simples Veículo!</h1>
+            <p>Encontre o sistema perfeito para otimizar sua loja de veículos. Controle seu negócio de forma segura, prática e simples. Totalmente online, oferece o melhor custo-benefício, recursos avançados de segurança e inclui uma plataforma de treinamento exclusiva.</p>
             <?php $cCallToAction = array(
                 'modifiers' => '',
                 'link' => '#overview',

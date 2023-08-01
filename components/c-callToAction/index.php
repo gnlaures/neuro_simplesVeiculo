@@ -6,7 +6,7 @@
             </div>
         </a>
     </li>
-    <li>
+    <li class="u-dnone">
         <?php include('components/c-btnWhatsapp/index.php'); ?>
     </li>
 </ul>
