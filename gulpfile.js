@@ -81,6 +81,7 @@ const control = {
             "components/c-tabs/index.js",
             "components/c-toggleItem/index.js",
             "components/c-cardVideo/index.js",
+            "components/c-tablePrice/index.js",
 
             "components/s-overview/index.js",
             "components/s-testmonials/index.js",

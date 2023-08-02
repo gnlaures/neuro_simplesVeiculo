@@ -2,6 +2,7 @@ const sTestmonials__swiper = new Swiper('.s-testmonials__swiper', {
     // Optional parameters
     loop: true,
     slidesPerView: 1,
+    autoHeight: true,
     // If we need pagination
     pagination: {
         el: '.s-testmonials__swiper .swiper-pagination',

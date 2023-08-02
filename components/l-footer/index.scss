@@ -72,3 +72,21 @@
 		}
 	}
 }
+
+.c-loveCriciuma {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: var(--radius);
+	background: #232323;
+	padding: 30px;
+	img {
+		display: block;
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		max-height: 90px;
+		object-fit: contain;
+	}
+}

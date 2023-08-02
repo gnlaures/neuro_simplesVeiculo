@@ -29,6 +29,12 @@
 			@include preset__h3;
 			text-align: center;
 		}
+		.c-priceCaption {
+			display: none;
+			&.is-active {
+				display: block;
+			}
+		}
 		.price {
 			display: flex;
 			flex-direction: row;

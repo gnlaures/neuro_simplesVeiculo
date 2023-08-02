@@ -1,3 +1,44 @@
+.c-tablePrice__togglePrice {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 40px;
+	li {
+		margin: 0 30px;
+	}
+	span {
+		@include transition();
+		display: block;
+		position: relative;
+		color: var(--text);
+		font-weight: var(--fw__semiBold);
+		font-size: 20px;
+		cursor: pointer;
+		&:before {
+			content: '';
+			display: block;
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: 1px;
+			left: -30px;
+			border-radius: 20px;
+			border: 2px solid var(--text);
+		}
+		&.is-active {
+			color: var(--black2);
+			&:before {
+				border: 2px solid var(--primary);
+				background-image: url('../../media/icons/icon_checked_white.svg');
+				background-size: 70%;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-color: var(--primary);
+			}
+		}
+	}
+}
 .c-tablePrice {
 	@include calcWidthForPositionNegative(-15px);
 	display: flex;

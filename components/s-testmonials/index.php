@@ -12,21 +12,29 @@
         <div class="s-testmonials__swiper c-swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <?php $cCardTestmonials = array('modifiers' => '');
+                    <?php $cCardTestmonials = array('modifiers' => '--text');
                     include('components/c-cardTestmonials/index.php'); ?>
                 </div>
                 <div class="swiper-slide">
-                    <?php $cCardTestmonials = array('modifiers' => '');
+                    <?php $cCardTestmonials = array('modifiers' => '--text');
                     include('components/c-cardTestmonials/index.php'); ?>
                 </div>
                 <div class="swiper-slide">
-                    <?php $cCardTestmonials = array('modifiers' => '');
+                    <?php $cCardTestmonials = array('modifiers' => '--text');
                     include('components/c-cardTestmonials/index.php'); ?>
                 </div>
                 <div class="swiper-slide">
-                    <?php $cCardTestmonials = array('modifiers' => '');
+                    <?php $cCardTestmonials = array('modifiers' => '--text');
                     include('components/c-cardTestmonials/index.php'); ?>
                 </div>
+<!--                <div class="swiper-slide">-->
+<!--                    --><?php //$cCardTestmonials = array('modifiers' => '');
+//                    include('components/c-cardTestmonials/index.php'); ?>
+<!--                </div>-->
+<!--                <div class="swiper-slide">-->
+<!--                    --><?php //$cCardTestmonials = array('modifiers' => '');
+//                    include('components/c-cardTestmonials/index.php'); ?>
+<!--                </div>-->
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
