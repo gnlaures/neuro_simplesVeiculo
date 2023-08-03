@@ -22,7 +22,7 @@
                     <?php $cCardIcon = array(
                         'modifiers' => 'u-noPointerEvents',
                         'content' => array(
-                            'icon' => 'media/icons/icon_caretDouble.svg',
+                            'icon' => 'media/icons/icon_customize.svg',
                             'title' => 'Personalização dos modelos',
                             'text' => 'O sistema permite a personalização dos modelos de página do site. Você pode escolher entre diferentes modelos pré-definidos e personalizá-los de acordo com a identidade visual da sua empresa. Isso inclui a seleção de cores, layouts, logos entre outros elementos visuais.',
                         ),
@@ -37,7 +37,7 @@
                     <?php $cCardIcon = array(
                         'modifiers' => 'u-noPointerEvents',
                         'content' => array(
-                            'icon' => 'media/icons/icon_caretDouble.svg',
+                            'icon' => 'media/icons/icon_fullSite.svg',
                             'title' => 'Site completo para a revenda de veículos',
                             'text' => 'Tenha um site completo dedicado à sua revenda de veículos. Esse site servirá como uma vitrine virtual para os seus veículos, proporcionando aos visitantes uma experiência de navegação agradável e informativa.',
                         ),
@@ -52,7 +52,7 @@
                     <?php $cCardIcon = array(
                         'modifiers' => 'u-noPointerEvents',
                         'content' => array(
-                            'icon' => 'media/icons/icon_caretDouble.svg',
+                            'icon' => 'media/icons/icon_responsive.svg',
                             'title' => 'Site totalmente responsivo',
                             'text' => 'O site criado pela Simples Veículo é totalmente responsivo, ou seja, se adapta automaticamente a diferentes dispositivos e tamanhos de tela, como desktops, laptops, tablets e smartphones. Isso garante uma experiência de navegação otimizada, independentemente do dispositivo utilizado pelos visitantes.',
                         ),
@@ -67,7 +67,7 @@
                     <?php $cCardIcon = array(
                         'modifiers' => 'u-noPointerEvents',
                         'content' => array(
-                            'icon' => 'media/icons/icon_caretDouble.svg',
+                            'icon' => 'media/icons/icon_charts.svg',
                             'title' => 'Integração automática do estoque',
                             'text' => 'Tenha integração automática do estoque de veículos cadastrados no sistema com o site. Isso significa que todas as informações relevantes dos veículos, como fotos, descrições e preços, serão atualizadas automaticamente no site, sem a necessidade de atualização manual.',
                         ),
@@ -82,7 +82,7 @@
                     <?php $cCardIcon = array(
                         'modifiers' => 'u-noPointerEvents',
                         'content' => array(
-                            'icon' => 'media/icons/icon_caretDouble.svg',
+                            'icon' => 'media/icons/icon_script.svg',
                             'title' => 'Inclusão de scripts personalizados',
                             'text' => 'O módulo permite a inclusão de scripts personalizados no site, como Pixel do Facebook, Google Analytics, Tagmanager, simulador de financiamentos e outros. Isso possibilita a integração de ferramentas de análise, marketing e funcionalidades extras conforme suas necessidades específicas.',
                         ),
@@ -97,7 +97,7 @@
                     <?php $cCardIcon = array(
                         'modifiers' => 'u-noPointerEvents',
                         'content' => array(
-                            'icon' => 'media/icons/icon_caretDouble.svg',
+                            'icon' => 'media/icons/icon_proposal.svg',
                             'title' => 'Propostas e contatos direto do site',
                             'text' => 'O site permite que os visitantes façam propostas de compra diretamente através do site. Além disso, também disponibiliza uma forma de contato direto para que os interessados possam entrar em contato com a sua loja.',
                         ),

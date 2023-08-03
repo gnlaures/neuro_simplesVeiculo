@@ -11,8 +11,8 @@
         <?php $cSocialList = array(
             "modifiers" => "",
             "social_items" => array(
-                array("theme" => "--instagram", "caption" => "@gnlaureano", "title" => "Instagram", "icon" => "media/icons/icon_attach.svg", "link" => "https://www.instagram.com"),
-                array("theme" => "--facebook", "caption" => "@gnlaureano", "title" => "Facebook", "icon" => "media/icons/icon_attach.svg", "link" => "https://www.facebook.com"),
+                array("theme" => "--instagram", "caption" => "@gnlaureano", "title" => "Instagram", "icon" => "media/icons/icon_insta.svg", "link" => "https://www.instagram.com"),
+                array("theme" => "--facebook", "caption" => "@gnlaureano", "title" => "Facebook", "icon" => "media/icons/icon_face.svg", "link" => "https://www.facebook.com"),
             )
         );
         include('components/c-socialList/index.php'); ?>

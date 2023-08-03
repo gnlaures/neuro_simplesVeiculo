@@ -3,35 +3,35 @@
         <ul>
             <li>
                 <a href="#tab_sistema_gestao" class="is-active">
-                    <i><?php include('media/icons/icon_attach.svg');?></i>
+                    <i><?php include('media/icons/icon_overview_systemManage.svg');?></i>
                     <span>Sistema de Gestao</span>
                 </a>
             </li>
             <li><div class="c-spacer --v"></div></li>
             <li>
                 <a href="#tab_financeiro">
-                    <i><?php include('media/icons/icon_attach.svg');?></i>
+                    <i><?php include('media/icons/icon_overview_finance.svg');?></i>
                     <span>Financeiro</span>
                 </a>
             </li>
             <li><div class="c-spacer --v"></div></li>
             <li>
                 <a href="#tab_integracoes">
-                    <i><?php include('media/icons/icon_attach.svg');?></i>
+                    <i><?php include('media/icons/icon_overview_integrations.svg');?></i>
                     <span>Integracoes</span>
                 </a>
             </li>
             <li><div class="c-spacer --v"></div></li>
             <li>
                 <a href="#tab_site">
-                    <i><?php include('media/icons/icon_attach.svg');?></i>
+                    <i><?php include('media/icons/icon_fullSite.svg');?></i>
                     <span>Site</span>
                 </a>
             </li>
             <li><div class="c-spacer --v"></div></li>
             <li>
                 <a href="#tab_nf">
-                    <i><?php include('media/icons/icon_attach.svg');?></i>
+                    <i><?php include('media/icons/icon_overview_receipt.svg');?></i>
                     <span>Nota Fiscal</span>
                 </a>
             </li>
