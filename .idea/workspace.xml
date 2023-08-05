@@ -3,33 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1f7c7beb-8b0c-4ccf-8e94-a4c0736e5c5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/c-cardPricing/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/c-cardPricing/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/c-tabs/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/c-tabs/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/s-plansPricingFull/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/s-plansPricingFull/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/s-plansPricingFull/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/s-plansPricingFull/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/scripts-min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_charts.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_charts.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_customize.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_customize.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_fullSite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_fullSite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_mission.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_mission.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_overview_finance.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_overview_finance.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_overview_integrations.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_overview_integrations.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_overview_receipt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_overview_receipt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_overview_systemManage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_overview_systemManage.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_perfomance.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_perfomance.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_postManagement.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_postManagement.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_proposal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_proposal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_regional.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_regional.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_responsive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_responsive.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_sales.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_sales.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_script.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_script.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_target.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_target.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_timeEconomy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_timeEconomy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_updates.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_updates.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_valores.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_valores.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/icon_vehicleExposition.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/icons/icon_vehicleExposition.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +147,7 @@
       <workItem from="1691001380794" duration="3047000" />
       <workItem from="1691083916285" duration="1609000" />
       <workItem from="1691088332795" duration="68000" />
-      <workItem from="1691237784024" duration="6510000" />
+      <workItem from="1691237784024" duration="8688000" />
     </task>
     <servers />
   </component>

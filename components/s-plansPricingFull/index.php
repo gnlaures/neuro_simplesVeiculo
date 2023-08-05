@@ -12,13 +12,13 @@
                 <div class="c-fullTablePlansAndPricing__content__col">
                     <div class="c-fullTablePlansAndPricing__content__col__title">
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por mês</div>
                         </div>
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por ano</div>
                         </div>
                     </div>
@@ -36,13 +36,13 @@
                 <div class="c-fullTablePlansAndPricing__content__col">
                     <div class="c-fullTablePlansAndPricing__content__col__title">
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por mês</div>
                         </div>
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por ano</div>
                         </div>
                     </div>
@@ -60,13 +60,13 @@
                 <div class="c-fullTablePlansAndPricing__content__col">
                     <div class="c-fullTablePlansAndPricing__content__col__title">
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por mês</div>
                         </div>
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por ano</div>
                         </div>
                     </div>
@@ -84,13 +84,13 @@
                 <div class="c-fullTablePlansAndPricing__content__col">
                     <div class="c-fullTablePlansAndPricing__content__col__title">
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por mês</div>
                         </div>
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por ano</div>
                         </div>
                     </div>
@@ -108,13 +108,13 @@
                 <div class="c-fullTablePlansAndPricing__content__col">
                     <div class="c-fullTablePlansAndPricing__content__col__title">
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por mês</div>
                         </div>
                         <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
-                            <h3>Grátis</h3>
-                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <h3>Intermediário</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">999.99</span></div>
                             <div class="period">por ano</div>
                         </div>
                     </div>

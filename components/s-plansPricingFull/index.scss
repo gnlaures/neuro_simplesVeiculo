@@ -84,7 +84,7 @@
 
 	&__aside {
 		@include flexWidth(16.66%);
-		padding-right: 20px;
+		padding-right: 42px;
 		i {
 			display: none;
 		}
@@ -147,6 +147,40 @@
 					width: 100%;
 					text-align: center;
 				}
+			}
+		}
+	}
+}
+
+// responsive
+@media screen and (max-width: 1340px) {
+	.s-fullPlansAndPricing {
+		.c-priceCaption {
+			h3 {
+				font-size: 20px;
+			}
+			.price .num {
+				font-size: 24px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 1220px) {
+	.c-fullTablePlansAndPricing {
+		&__aside {
+			@include flexWidth(150px);
+			padding-right: 0px;
+		}
+		&__content {
+			flex: 1 1 auto;
+			overflow: scroll;
+			&__col {
+				flex: 1 1 20%;
+				min-width: 150px;
+				width: 20%;
+				max-width: 20%;
+				padding-left: 0;
+				padding-right: 0;
 			}
 		}
 	}
