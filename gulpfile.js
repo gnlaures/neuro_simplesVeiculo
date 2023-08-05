@@ -85,6 +85,7 @@ const control = {
 
             "components/s-overview/index.js",
             "components/s-testmonials/index.js",
+            "components/s-plansPricingFull/index.js",
 
             "components/l-nav/index.js",
             "components/l-headerHome/index.js",

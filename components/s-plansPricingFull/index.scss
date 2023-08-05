@@ -1,5 +1,7 @@
 .s-fullPlansAndPricing {
-
+	.c-tablePrice__togglePrice {
+		padding-bottom: 80px;
+	}
 }
 
 .c-fullTablePlansAndPricing {
@@ -7,68 +9,144 @@
 	flex-direction: row;
 	align-items: flex-start;
 	width: 100%;
-	&__aside {
-		@include flexWidth(16.66%);
-		&__group {
-			display: block;
-			margin-top: 30px;
-			&:first-of-type {
-				margin-top: 0;
-			}
-			h3 {
+
+	&__group {
+		display: block;
+		margin-top: 30px;
+		&:first-of-type {
+			margin-top: 0;
+		}
+		i {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			width: 24px;
+			height: 24px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -12px;
+			margin-top: -12px;
+		}
+		h3 {
+			position: relative;
+			span {
 				color: var(--black2);
 				font-size: 22px;
 				font-weight: var(--fw__semiBold);
 				line-height: 200%; /* 44px */
 				letter-spacing: -0.88px;
 			}
-			h4 {
+		}
+		h4 {
+			position: relative;
+			span {
 				@include preset__p__s();
-				font-weight: var(--fw__semiBold);
+				font-weight: var(--fw__semiBold) !important;
 				line-height: 200%; /* 44px */
 			}
-			> ul {
-				> li {
+		}
+		> ul {
+			> li {
+				position: relative;
+				span {
 					@include preset__p__s();
-					padding-top: 8px;
-					padding-bottom: 8px;
+					padding-top: 10px;
+					padding-bottom: 10px;
 					border-bottom: 1px solid #B6DCED;
-					> ul {
-						padding: 8px 0;
-						padding-left: 18px;
-						border-left: 1px solid #B6DCED;
-						> li {
-							@include preset__p__s();
-							padding-top: 8px;
-							padding-bottom: 8px;
+				}
+				> ul {
+					padding: 8px 0;
+					padding-left: 18px;
+					border-left: 1px solid #B6DCED;
+					> li {
+						@include preset__p__s();
+						padding-top: 8px;
+						padding-bottom: 8px;
+						border-bottom: 1px solid transparent;
+						position: relative;
+						&:last-of-type {
+							padding-bottom: 0;
 							border-bottom: 1px solid #B6DCED;
-							&:last-of-type {
-								padding-bottom: 0;
+							span {
 								border-bottom: 0;
 							}
-							&:first-of-type {
-								padding-top: 0;
-							}
+						}
+						&:first-of-type {
+							padding-top: 0;
 						}
 					}
 				}
 			}
 		}
 	}
+
+	&__aside {
+		@include flexWidth(16.66%);
+		padding-right: 20px;
+		i {
+			display: none;
+		}
+	}
+
 	&__content {
+		border-radius: var(--radius);
+		background: var(--white);
+		box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.05);
 		flex: 1 1 auto;
 		display: flex;
 		flex-direction: row;
+		padding: 20px 0;
+		position: relative;
+		top: -20px;
 		&__col {
 			@include flexWidth(20%);
+			padding: 0 20px;
+			border-right: 1px solid #B6DCED;
+			&:last-of-type {
+				border-right: 1px solid transparent;
+			}
 			&__title {
-
+				padding: 20px 0;
 			}
 			&__items {
-
+				span, h4, h3 {
+					//opacity: 0;
+					pointer-events: none !important;
+					user-select: none !important;
+					color: transparent !important;
+				}
+				h4, h3 {
+					span {
+						border-color: transparent !important;
+					}
+					&:not(.titleWithIcon) {
+						i {
+							display: none;
+						}
+					}
+				}
+				i {
+					display: block;
+				}
+				ul {
+					ul {
+						padding-left: 9px !important;;
+						padding-right: 9px !important;
+						border-left: 0 !important;;
+						li {
+							border-bottom: 1px solid transparent !important;
+						}
+					}
+				}
 			}
 			&__cta {
-
+				padding-top: 20px;
+				* {
+					width: 100%;
+					text-align: center;
+				}
 			}
 		}
 	}

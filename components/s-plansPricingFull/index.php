@@ -1,81 +1,132 @@
 <section class="s-fullPlansAndPricing">
     <div class="u-container">
+        <ul class="c-tablePrice__togglePrice">
+            <li><span class="js-c-tablePrice__togglePrice__month is-active">Mensal</span></li>
+            <li><span class="js-c-tablePrice__togglePrice__year">Anual</span></li>
+        </ul>
         <div class="c-fullTablePlansAndPricing">
             <div class="c-fullTablePlansAndPricing__aside">
-                <div class="c-fullTablePlansAndPricing__aside__group">
-                    <h3>Dashboard</h3>
-                </div>
-                <div class="c-fullTablePlansAndPricing__aside__group">
-                    <h3>Veiculo</h3>
-                    <ul>
-                        <li>Quantidade de veículos</li>
-                        <li>Permissões de acesso</li>
-                        <li>Tag</li>
-                        <li>Modelos Baseados na fipe</li>
-                        <li>Link para o DETRAN  do seu Estado</li>
-                        <li>Multi empresas</li>
-                        <li>Link de vídeo para Youtube</li>
-                        <li>Opcionais do veículo</li>
-                        <li>Imagens 360</li>
-                        <li>
-                            <h4>Documentos</h4>
-                            <ul>
-                                <li>Documentos por anexados por permissão</li>
-                                <li>Documentos por anexados por permissão</li>
-                                <li>Documentos por anexados por permissão</li>
-                            </ul>
-                        </li>
-                        <li>Despesas</li>
-                        <li>Relatórios</li>
-                        <li>Selecionar para portais</li>
-                    </ul>
-                </div>
-                <div class="c-fullTablePlansAndPricing__aside__group">
-                    <h3>Lorem Ipsum</h3>
-                    <ul>
-                        <li>Quantidade de veículos</li>
-                        <li>Permissões de acesso</li>
-                        <li>Tag</li>
-                        <li>Modelos Baseados na fipe</li>
-                        <li>Link para o DETRAN  do seu Estado</li>
-                        <li>Multi empresas</li>
-                        <li>Link de vídeo para Youtube</li>
-                        <li>Opcionais do veículo</li>
-                        <li>Imagens 360</li>
-                        <li>
-                            <h4>Documentos</h4>
-                            <ul>
-                                <li>Documentos por anexados por permissão</li>
-                            </ul>
-                        </li>
-                        <li>Despesas</li>
-                        <li>Relatórios</li>
-                        <li>Selecionar para portais</li>
-                    </ul>
-                </div>
+                <?php include('components/s-plansPricingFull/colContent.php'); ?>
             </div>
             <div class="c-fullTablePlansAndPricing__content">
                 <div class="c-fullTablePlansAndPricing__content__col">
                     <div class="c-fullTablePlansAndPricing__content__col__title">
-                        <div class="c-priceCaption">
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
                             <h3>Grátis</h3>
-                            <div class="price">
-                                <span class="symbol">R$</span>
-                                <span class="num">0,00</span>
-                            </div>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
                             <div class="period">por mês</div>
                         </div>
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por ano</div>
+                        </div>
                     </div>
-                    <ul class="c-fullTablePlansAndPricing__content__col__items">
-                        <li>
-                            <i>check</i>
-                        </li>
-                        <li>
-                            <i>x</i>
-                        </li>
-                    </ul>
+                    <div class="c-fullTablePlansAndPricing__content__col__items">
+                        <?php include('components/s-plansPricingFull/colContent.php'); ?>
+                    </div>
                     <div class="c-fullTablePlansAndPricing__content__col__cta">
-                        //cBtn
+                        <a href="#plans" class="c-btn --primary --l js-scrollLink">
+                            <div class="c-btn__hero">
+                                <div class="c-btn__caption">Cadastre-se</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="c-fullTablePlansAndPricing__content__col">
+                    <div class="c-fullTablePlansAndPricing__content__col__title">
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por mês</div>
+                        </div>
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por ano</div>
+                        </div>
+                    </div>
+                    <div class="c-fullTablePlansAndPricing__content__col__items">
+                        <?php include('components/s-plansPricingFull/colContent.php'); ?>
+                    </div>
+                    <div class="c-fullTablePlansAndPricing__content__col__cta">
+                        <a href="#plans" class="c-btn --primary --l js-scrollLink">
+                            <div class="c-btn__hero">
+                                <div class="c-btn__caption">Cadastre-se</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="c-fullTablePlansAndPricing__content__col">
+                    <div class="c-fullTablePlansAndPricing__content__col__title">
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por mês</div>
+                        </div>
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por ano</div>
+                        </div>
+                    </div>
+                    <div class="c-fullTablePlansAndPricing__content__col__items">
+                        <?php include('components/s-plansPricingFull/colContent.php'); ?>
+                    </div>
+                    <div class="c-fullTablePlansAndPricing__content__col__cta">
+                        <a href="#plans" class="c-btn --primary --l js-scrollLink">
+                            <div class="c-btn__hero">
+                                <div class="c-btn__caption">Cadastre-se</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="c-fullTablePlansAndPricing__content__col">
+                    <div class="c-fullTablePlansAndPricing__content__col__title">
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por mês</div>
+                        </div>
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por ano</div>
+                        </div>
+                    </div>
+                    <div class="c-fullTablePlansAndPricing__content__col__items">
+                        <?php include('components/s-plansPricingFull/colContent.php'); ?>
+                    </div>
+                    <div class="c-fullTablePlansAndPricing__content__col__cta">
+                        <a href="#plans" class="c-btn --primary --l js-scrollLink">
+                            <div class="c-btn__hero">
+                                <div class="c-btn__caption">Cadastre-se</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="c-fullTablePlansAndPricing__content__col">
+                    <div class="c-fullTablePlansAndPricing__content__col__title">
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__month is-active">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por mês</div>
+                        </div>
+                        <div class="c-priceCaption js-c-tablePrice__togglePrice__year">
+                            <h3>Grátis</h3>
+                            <div class="price"><span class="symbol">R$</span><span class="num">0,90</span></div>
+                            <div class="period">por ano</div>
+                        </div>
+                    </div>
+                    <div class="c-fullTablePlansAndPricing__content__col__items">
+                        <?php include('components/s-plansPricingFull/colContent.php'); ?>
+                    </div>
+                    <div class="c-fullTablePlansAndPricing__content__col__cta">
+                        <a href="#plans" class="c-btn --primary --l js-scrollLink">
+                            <div class="c-btn__hero">
+                                <div class="c-btn__caption">Cadastre-se</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
